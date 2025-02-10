@@ -1,4 +1,3 @@
-// app/ClientWrapper.jsx
 "use client";
 
 import { AnimatePresence, motion } from "framer-motion";
@@ -26,14 +25,7 @@ export default function ClientWrapper({ children }) {
   };
 
   return (
-    <div
-      style={{
-        position: "relative",
-        minHeight: "100vh",
-        overflow: "hidden",
-        // Remove the background color to let BackgroundStars show through
-      }}
-    >
+    <div>
       <AnimatePresence mode="sync">
         <motion.div
           key={pathname}

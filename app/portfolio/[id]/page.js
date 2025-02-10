@@ -1,4 +1,3 @@
-// app/portfolio/[id]/page.js
 "use client";
 
 import { useParams } from "next/navigation";

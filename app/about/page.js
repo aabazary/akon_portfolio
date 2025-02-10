@@ -1,4 +1,3 @@
-// app/about/page.js (About Me)
 "use client";
 
 import WheelNavigator from "../WheelNavigator";
